@@ -76,8 +76,6 @@ q1_waiting_time += q0_turnaround_time
 q2_waiting_time += q1_turnaround_time
 q3_waiting_time += q2_turnaround_time
 
-
-
 print("Queue 0:")
 for process in q0:
     print(f"Process {process.pid}: waiting time = {process.waiting_time}, turnaround time = {process.turnaround_time}")
